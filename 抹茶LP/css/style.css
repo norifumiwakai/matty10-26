@@ -1,0 +1,303 @@
+body{
+  color: #FFFFFF;
+  font-family: 'Noto Serif JP', serif;
+  letter-spacing: 0.15em;
+  margin: 0 auto;
+}
+.main2{
+  background-image: url(../images/新背景.png);
+  background-repeat: no-repeat;
+  background-position: top, 0 1000px,center;
+  /* object-fit: cover,cover,fill; */
+  object-position: -85px 0px;
+  height: 3171px;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: -5px;
+}
+
+.hed{
+  max-width: 1440px;
+  background-image: url(../images/茶畑.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 591px;
+  margin: auto;
+}
+.rogo{
+  width: 80px;
+  margin: 30px 0 0 28px;
+  position: absolute;
+  z-index: 1;
+}
+.rogosm{
+  display: none;
+}
+.fv{
+  position: relative;
+  display: flex;
+  width: 1128px;
+  justify-content: space-between;
+}
+.fv-text{
+  width: 460px;
+  margin-left: -40px;
+}
+.daihuku{
+  height: 554px;
+  z-index: 0;
+  object-fit: cover;
+  object-position: -110px 7px;
+  margin-top: -4%;
+}
+.subtitle{
+  font-size: 64px;
+  margin-top: 114px;
+  letter-spacing: 0.15em;
+}
+.subtitle span{
+  font-size: 52px;
+}
+.mattya{
+  font-size: 190px;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  margin: 0;
+  margin-top: -50px;
+  background: linear-gradient(180deg, #5F711C 57.81%, #FFFFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hatubai0{
+  width: 392px;
+  display: flex;
+  margin-left: auto;
+  margin-top: -116px;
+  justify-content: center;
+}
+.hatubai1{
+  font-size: 78px;
+}
+.hatubai1 span{
+  font-size: 40px;
+}
+.hatubai2{
+  font-size: 48px;
+  margin-top: 109px;
+  margin-left: 34px;
+  margin-right: 40;
+}
+.tyaba{
+  width: 355px;
+}
+.tyaba3{
+  width: 268px;
+}
+.tyaba2{
+  width: 355px;
+}
+.tyaba5{
+  width: 269px;
+}
+.group{
+  width: 860px;
+  display: flex;
+  margin: auto;
+}
+.ph{
+  text-align: end;
+}
+.ph.a{
+  margin-top: -100px;
+  margin-right: 85px;
+  text-align: end;
+}
+.ph2{
+  margin-top: -240px;
+}
+.group h1{
+  position: relative;
+  z-index: 1;
+  margin-left: -300px;
+}
+h1{
+  font-size: 36px;
+  margin-bottom: 0;
+  letter-spacing: 0.2em;
+}
+.group p{
+  position: relative;
+  z-index: 1;
+  margin-left: -300px;
+  margin-top: 25px;
+  font-size: 24px;
+}
+.ha{
+  width: 857px;
+  z-index: 1;
+}
+
+.group.a{
+  width: 904px;
+
+}
+.daihuku2{
+  width: 603px;
+}
+.text{
+  font-size: 24px;
+  margin-bottom: 0;
+  margin-top: 25px;
+  letter-spacing: 0.1em;
+  width: 230px;
+}
+.text2{
+  font-size: 16px;
+  width: 260px;
+  text-align: right;
+  margin-left: -30px;
+  margin-top: 0;
+  letter-spacing: 0.1em;
+}
+.group2{
+  width: 903px;
+  display: flex;
+  margin: auto;
+}
+
+h2{
+  width: 655px;
+  font-size: 48px;
+  margin: auto;
+  letter-spacing: 15px;
+}
+.momiji{
+  width: 841px;
+  margin: auto;
+}
+.end{
+  width: 504px;
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+  margin-top: 124px;
+}
+
+@media screen and (max-width:425px){
+  .main2{
+    width: 425px;
+    background-image: url(../images/新背景sm-17.png);
+    background-size: contain,contain,auto;
+    height: 2650px;
+  }
+  .hed{
+    height: 758px;
+  }
+  .mattya{
+    font-size: 160px;
+    background: linear-gradient(179deg, #FFFFFF 57.81%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .fv{
+    width: 425px;
+  }
+  .rogo{
+    display: none;
+  }
+  .rogosm{
+    display: block;
+    width: 80px;
+    margin: 30px 0 0 28px;
+    position: absolute;
+    z-index: 1;
+  }
+  .daihuku{
+    width: 425px;
+    height: 457px;
+    margin-top: 150px;
+    object-position: -128px 0px;
+  }
+  .fv-text{
+    width: 425px;
+    position: relative;
+    margin-left: 0;
+    margin-top: 100px;
+  }
+  .subtitle,.mattya{
+    text-align: center;
+  }
+  .hatubai0, .daihuku{
+    position: absolute;
+  }
+  .hatubai0{
+    width: 303px;
+    display: flex;
+    margin-top: -13px;
+    transform: translate(20%,0%);
+  }
+  .tyaba,.tyaba2 {
+    width: 123px;
+}
+.tyaba2 {
+    width: 123px;
+    margin-top: 220px;
+}
+.tyaba3 {
+  width: 169px;
+  margin-top: 200px;
+}
+.tyaba4,.tyaba5 {
+  width: 175px;
+}
+.tyaba4 {
+  margin-top: 88px;
+}
+.tyaba5 {
+  margin-top: 300px;
+}
+.group{
+  width: 352px;
+  flex-direction:column-reverse ;
+}
+.group h1{
+  margin-left: 0;
+}
+
+.group p{
+  margin-left: 0;
+}
+.setumei{
+  margin: auto;
+  margin-top: 54px;
+}
+.ha {
+    width: 352px;
+    margin-top: 96px;
+}
+.group2{
+  width: 352px;
+  display: block;
+}
+.text2{
+  margin: auto;
+}
+.daihuku2 {
+    width: 323px;
+    margin-top: 48px;
+}
+h2{
+  font-size: 20px;
+  width: 322px;
+  text-align: center;
+  margin-top: 71px;
+  letter-spacing: 8px;
+}
+.momiji {
+    width: 425px;
+}
+.end {
+  width: 364px;
+  font-size:12px;
+}
+}
